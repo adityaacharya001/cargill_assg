@@ -59,6 +59,7 @@ hr{
 }
 input{
     border-radius: 5px;
+    width: 190px;
     padding: 10px;
     margin-bottom: 20px;
 }
