@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.mainbody{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
+
+
+
+.heading{
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 6vw;
+    color: rgba(100, 82, 0, 0.411);
+}
+
+hr{
+    width: 120px;
+}
+
+.bottomHeading{
+    font-weight: 600;
+}
+
+.mainbody .panel{
+    width:220px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.panel .subHeading{
+   font-weight: 600;
+   font-size: 14px;
+   text-align: center;
+   padding: 10px;
+   color: black;
+
+}
+
+
+.panel .subSubHeading{
+    color: grey;
+    font-weight: 700;
+    text-align: center;
+}
+.err{
+    color: red;
+}
+input{
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: lightgreen;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 90px;
+    margin: 10px;
+}
+
+.infocus{
+    background-color: yellowgreen;
+}
+
+
+.cardGrid{
+    display:grid;
+    grid-template-columns: repeat( auto-fill, minmax(220px, 1fr) );
+    grid-gap: 20px;
+    width:70vw;
+    padding: 0px 20px 20px 20px;
+}
+.card {
+    background-color: white;
+    height: 300px;
+    width: 220px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.cardFocus{
+        height: 450px
+
+}
+
+ul{
+    padding:0px;
+    margin: 5px 5px 0px 10px;
+    color: grey;
+}
+
+
+.spa{
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.card .subHeading{
+    color: grey;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.card .section {
+    color: grey;
+}
+
+.card .subSubHeading{
+    font-weight: 600;
+    color: black;
+}
+
+
+
+
+
