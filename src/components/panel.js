@@ -82,11 +82,12 @@ function Panel(props) {
                     {errMsg ? <div className="err">{errMsg}</div> : null}
                     <form type="submit" onSubmit={e => onSubmitHandler(e)}><input onChange={e => onChangeHandler(e)} value={searchWord} />
                         <button onClick={e => onSubmitHandler(e)}>Search</button>
-                        <button onClick={e => onReset(e)}>Reset</button>
                     </form>
+                    <button onClick={e => onReset(e)}>Reset</button>
+
                <hr/>
                <div>
-                    <div className="subHeading">Sort list in ascending descemding order of population of capital cities of countries.</div>
+                    <div className="subHeading">Sort list in ascending descending order of population of capital cities of countries.</div>
                    <button  onClick={e=>{sortData(e)}} value="ascending">ascending</button>
                     <button onClick={e => { sortData(e) }} value="descending">descending</button>
                </div>
